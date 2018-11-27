@@ -5,7 +5,6 @@ import { GoTrashcan } from 'react-icons/go';
 
 export default class Table extends Component {
   render() {
-    console.log('props from inside table', this.props.basket);
     return (
       <div className="table">
         <table>

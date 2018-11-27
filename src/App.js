@@ -95,9 +95,9 @@ class App extends Component {
   };
 
   orderHandle = () => {
-    console.log('ordered');
+    console.log(this.state);
 
-    const newPurchase = this.state.basket;
+    const newPurchase = this.state;
 
     axios.post(`APIurl`, { newPurchase }).then(res => {
       console.log(res);
