@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-left: 40px;
+  /* font-family: 'Domine', serif; */
+  font-family: 'Playfair Display', serif;
+  font-size: 12px;
+  color: black;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.header {
+  text-align: left;
+  line-height: 0%;
+  margin-bottom: 10%;
+  padding-left: 0.75rem;
+}
+
+.header > h3 {
+  margin-top: 10%;
+  font-weight: bold;
+}
+
+.table {
+  text-align: left;
+  width: 100%;
+  font-size: 12px;
+}
+
+.table-head {
+  border-bottom: 3px solid black;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+p {
+  font-family: 'Playfair Display', serif;
+}
+
+th {
+  width: 30px;
+  padding: 0rem;
+}
+
+input {
+  max-width: 50px;
+  text-align: center;
+}
+
+.the-container > button {
+  background-color: darkgray;
+  color: #ffffff;
+  border-radius: 1px;
+  width: 20px;
+  height: 10px;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+  /* margin: 10px; */
+}
+
+.table th {
+  padding-left: 0.7;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+.the-container {
+  max-width: 20px;
+  padding: 0;
+  font-size: 8px;
+  text-align: center;
+}
+
+#root > div > div > div.row > div:nth-child(1) > h5,
+#root > div > div > div:nth-child(4) > div:nth-child(1) > h5,
+#root > div > div > div.total > div.row > div:nth-child(1) > h5 {
+  text-align: left;
+  margin-left: 10px;
+  color: #696969;
+}
+
+#root > div > div > div:nth-child(3) > div:nth-child(2) > h5,
+#root > div > div > div:nth-child(4) > div:nth-child(2) > h5,
+#root > div > div > div.total > div.row > div:nth-child(2) > h5 {
+  text-align: right;
+  margin-right: 16%;
+  color: #696969;
+}
+
+.total {
+  padding-top: 10px;
+}
+
+#root > div > div > div.total > div.row > div:nth-child(1) > h5,
+#root > div > div > div.total > div.row > div:nth-child(2) > h5 {
+  font-weight: bold;
+  color: black;
+}
+
+.buy-now > button {
+  background-color: navy;
+  color: #ffffff;
+  border-radius: 15%;
+  width: 100px;
+  height: 40px;
+  padding-left: 0;
+  padding-bottom: 0;
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 40px;
+}
+
+.buy-now {
+  padding-left: 70%;
+}
