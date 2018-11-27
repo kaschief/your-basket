@@ -142,10 +142,14 @@ class App extends Component {
             <Row>
               <Col>
                 <p>Items you have added to your basket are shown below. </p>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
                 <p>
                   Adjust the quantities or remove items before continuing your
                   purchase.
-                </p>
+                </p>{' '}
               </Col>
             </Row>
           </div>
@@ -172,7 +176,7 @@ class App extends Component {
               <h5>£{taxes}</h5>
             </Col>
           </Row>
-          <div className="total">
+          <div>
             <Row>
               <Col>
                 <h5>Total Cost:</h5>
